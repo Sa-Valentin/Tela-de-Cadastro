@@ -1,0 +1,112 @@
+#inserir{
+    text-align: center;
+    margin-top: 130px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#input{
+    position: relative;
+    border: 1px 1px black;
+    border-radius: 8px;
+    box-shadow: 1px 1px rgb(46, 45, 45);
+    width: 25%;
+    margin-bottom: 10px;
+    left: 0.5%;
+}
+
+#input_2{
+    position: relative;
+    border: 1px 1px black;
+    border-radius: 8px;
+    box-shadow: 1px 1px rgb(46, 45, 45);
+    width: 25%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    left: 1.7%;
+}
+
+#input:hover, #input_2:hover,#input_3:hover{
+    padding: 9px;
+    transition: padding 0.2s;
+}
+
+#input:not(:hover), #input_2:not(:hover),#input_3:not(:hover){
+    padding: 7px;
+    transition: padding 0.2s;
+}
+
+
+#login{
+    text-decoration-line: none;
+    color: rgb(159, 1, 1, 0.9)
+}
+
+#login:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(159, 1, 1, 0.9);
+    border-radius: 6px;
+}
+
+#olho{
+    position: relative;
+    cursor: pointer;
+    bottom: 40px;
+    right: 10px;
+}
+
+#aviso_anim{
+    position: absolute;
+    right: 76%;
+    top: 38%;
+    padding: 100px;
+    border-radius: 3%;
+    width: 15px;
+    height: 1px;
+}
+
+#aviso1{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-decoration-line: overline;
+    
+}
+
+#aviso2{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 17px;
+    top: 60px;
+    left: 10px;
+}
+
+#aviso3{
+    position: absolute;
+    font-size: 17px;
+    top: 85px;
+    left: 10px;
+    color: rgb(4, 4, 4);
+}
+
+#aviso4{
+    position: absolute;
+    font-size: 17px;
+    top: 110px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#redr{
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+}
