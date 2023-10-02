@@ -75,7 +75,7 @@ div_inserir.insertBefore(input, a)
         btn_proximo.remove()
         document.querySelector('#possui_conta').innerHTML = 'Não foi redirecionado?<a href="http://127.0.0.1:5500/Projetos/Tela%20de%20login/login.html" id="login"> Login</a>'
         setTimeout(()=>{
-            window.location.href='http://127.0.0.1:5500/Projetos/Tela%20de%20login/login.html' 
+            window.location.href='https://sa-valentin.github.io/Tela-de-login/login.html' 
         }, 3000)
     }
 
